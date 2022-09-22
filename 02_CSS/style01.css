@@ -1,0 +1,16 @@
+header {background-color: black;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 10px}
+body > h2 {background-color: gray;
+     border-top-right-radius: 100px;
+    margin-right: 100px;
+    margin-left: 10px;
+    color: white;}
+body > ul {background-color:darkgrey;
+     margin : 5px;
+     margin-right: 100px;
+    border-style: double;
+    border-color: white;}
+* {margin : 0px;}
