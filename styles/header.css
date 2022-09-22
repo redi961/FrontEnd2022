@@ -1,0 +1,22 @@
+header {
+    background-color: #29C1F3;
+    font-family: 'Dongle', sans-serif;
+    font-size: 34px;
+    height: 150px;
+}
+header > section {
+    display: flex;
+
+}
+.header_left,
+.header_right {
+    margin: 20px;
+}
+.header_left {
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+.header_right {
+    width: 70%;
+}

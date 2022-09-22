@@ -1,0 +1,36 @@
+/* 전체 적용*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 레이아웃*/
+main {
+    background-color: #45A9EF;
+    display: flex;
+}
+main > section {
+    display: flex;
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #29C1F3;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer > ul {
+    font-size: 15px;
+    margin-left: 9px;
+    list-style-type: none;
+}
+footer > h2,
+ul {
+    margin: 10px;
+}
