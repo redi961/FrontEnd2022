@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>폼연습</title>
+    </head>
+    <body>
+        <form method="get" action="a.html">
+            <!--Label / Input 태그는 인라인 태그이므로 띄어쓰기 위하여 div로 묶어주거나 별도의 조치가 필요함-->
+            <div>
+                <label for="dtxt1">이름 입력 :
+                </label>
+                <input type="text" name="dtxt1" placeholder="이름을 입력하세요.">
+            </div>
+            <div>
+                <label for="mail">
+                    e-mail :
+                </label>
+                <input type="email" name="mail" placeholder="메일을 입력하세요.">
+            </div>
+            <div>
+                <label for="date">
+                    날짜 :
+                </label>
+                <input type="color" name="date" placeholder="">
+            </div>
+            <div>
+              <!--Radio는 같은 name안에서 하나만 선택하게 도와줌 // name 통일성 신경쓸것 -->
+              <input type="radio" id ="r1" name="gender" value="남">
+              <label for ="r1">남</label>
+              <input type="radio" name="gender" value="여">여
+            </div>
+            <input type="button" value="확인2">
+            <input type="submit" value="확인">
+            <input type="reset" value="취소">
+
+        </form>
+    </body>
+</html>
